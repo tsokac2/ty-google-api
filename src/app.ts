@@ -8,5 +8,5 @@ function searchAddressHandler(event: Event){
     // send this to Google's API!
 }
 
-from?.addEventListener('submit',);
+from?.addEventListener('submit', searchAddressHandler);
 
